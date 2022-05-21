@@ -25,6 +25,6 @@ La fusée a d'une hauteur de 1 mètre 85 avec une peau aluminium. L'ogive mesure
   <img 
     width="300"
     height="300"
-    src= "[Logo Space'Tech-orleans.png](https://github.com/DamsPoix/Tigresse_2/blob/af286f575988eff74a876d7b190c5a7e26c8872e/Mod%C3%A9lisation_3D/Rendu_Github.jpg)"
+    src= "Modélisation_3D/Rendu_Github.jpg"
   >
 </p>
