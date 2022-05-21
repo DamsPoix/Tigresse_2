@@ -20,3 +20,11 @@ Elle emportera une expérience afin de mesurer les résonnances de Schumann dura
     src= "Logo Space'Tech-orleans.png"
   >
 </p>
+La fusée a d'une hauteur de 1 mètre 85 avec une peau aluminium. L'ogive mesure 45cm.
+<p align="center">
+  <img 
+    width="300"
+    height="300"
+    src= "Logo Space'Tech-orleans.png"
+  >
+</p>
