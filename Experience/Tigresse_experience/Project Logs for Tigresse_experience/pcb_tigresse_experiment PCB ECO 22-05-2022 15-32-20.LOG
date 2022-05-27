@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=AGND Pin=C1-1
+Removed Pin From Net: NetName=NetADC_12 Pin=C1-2
+Removed Pin From Net: NetName=NetADC_12 Pin=REF-1
+Removed Pin From Net: NetName=NetADC_12 Pin=REF-2
+Removed Pin From Net: NetName=AGND Pin=REF-3
+Removed Pin From Net: NetName=AGND Pin=REF-4
+Removed Pin From Net: NetName=AGND Pin=REF-5
+Removed Pin From Net: NetName=REF5V Pin=REF-6
+Removed Pin From Net: NetName=REF5V Pin=REF-7
+Removed Pin From Net: NetName=AGND Pin=REF-8
+Removed Member From Class: ClassName=Pamp Member=C1
+Removed Member From Class: ClassName=Pamp Member=REF
+Change Footprint: Footprint Not Found 0805
+Change Footprint: Footprint Not Found 0805

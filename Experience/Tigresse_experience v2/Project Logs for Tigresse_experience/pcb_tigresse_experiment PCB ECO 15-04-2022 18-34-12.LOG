@@ -1,0 +1,78 @@
+Removed Pin From Net: NetName=NetADC_15 Pin=RRX-2
+Removed Member From Class: ClassName=Data Member=RRX
+Add Component: Footprint Not Found 0805
+Added Component: Designator=P1(61301611121)
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to105degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "61301611121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bag"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "61301611121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Number"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "500VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250VAC"; VariantName = "[No Variations]"
+Added Component: Designator=P2(61301611121)
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to105degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "61301611121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bag"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "61301611121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Number"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "500VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250VAC"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Added Component: Designator=RRX?(RESC2013X60X40ML20T25)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA6AEB473V"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C3V3-1
+Add Pin To Net: Unknown Pin: Pin C3V3-2
+Added Pin To Net: NetName=PWR_ON Pin=P1-5
+Added Pin To Net: NetName=MON_SWPWR Pin=P1-6
+Added Pin To Net: NetName=NetAlim_C1_2 Pin=P1-10
+Added Pin To Net: NetName=DGND Pin=P1-16
+Added Pin To Net: NetName=NetClock_17 Pin=P2-1
+Added Pin To Net: NetName=D3V3 Pin=P2-12
+Add Pin To Net: Unknown Pin: Pin Rauch C1-1
+Add Pin To Net: Unknown Pin: Pin Rauch C1-2
+Add Pin To Net: Unknown Pin: Pin Rauch C2_3-1
+Add Pin To Net: Unknown Pin: Pin Rauch C2_3-2
+Add Pin To Net: Unknown Pin: Pin REF _C2-1
+Add Pin To Net: Unknown Pin: Pin REF _C2-2
+Added Pin To Net: NetName=NetADC_15 Pin=RRX?-2
+Added Pin To Net: NetName=NetP1_14 Pin=P1-14
+Added Pin To Net: NetName=NetP1_14 Pin=RRX?-1
+Added Net: Name=NetP1_14
+Added Pin To Net: NetName=NetP1_15 Pin=P1-15
+Added Pin To Net: NetName=NetP1_15 Pin=RTX-1
+Added Net: Name=NetP1_15
+Added Pin To Net: NetName=NetP2_9 Pin=P2-9
+Added Pin To Net: NetName=NetP2_9 Pin=RDRDY-1
+Added Net: Name=NetP2_9
+Add Class Member: Failed to add class member : Component C3V3 C0805
+Added Member To Class: ClassName=Data Member=Component P1 61301611121
+Added Member To Class: ClassName=Data Member=Component P2 61301611121
+Add Class Member: Failed to add class member : Component Rauch C1 X7R 250V
+Add Class Member: Failed to add class member : Component Rauch C2_3 X7R 250V
+Add Class Member: Failed to add class member : Component REF _C2 X7R 16V
+Added Member To Class: ClassName=Data Member=Component RRX? ERA6AEB473V

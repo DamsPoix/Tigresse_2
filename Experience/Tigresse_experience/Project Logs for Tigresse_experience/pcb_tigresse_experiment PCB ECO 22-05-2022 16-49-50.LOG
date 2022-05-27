@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetADC_14 Pin=RDRDY-2
+Removed Member From Class: ClassName=Data Member=RDRDY
+Added Component: Designator=RDRDY?(RESC2013X60X40ML20T25)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA6AEB473V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetADC_14 Pin=RDRDY?-2
+Added Pin To Net: NetName=NetPH2_6 Pin=PH2-6
+Added Pin To Net: NetName=NetPH2_6 Pin=RDRDY?-1
+Added Net: Name=NetPH2_6
+Added Member To Class: ClassName=Data Member=Component RDRDY? ERA6AEB473V

@@ -1,0 +1,9 @@
+Added Component: Designator=C_high_volt(FP-DE2_D6_T5_F7_5_d0_6-0-MFG)
+Added Pin To Net: NetName=GUARD Pin=C_high_volt-2
+Added Pin To Net: NetName=NetC_high_volt_1 Pin=C_high_volt-1
+Added Pin To Net: NetName=NetC_high_volt_1 Pin=P1-2
+Added Pin To Net: NetName=NetC_high_volt_1 Pin=P1-2
+Added Pin To Net: NetName=NetC_high_volt_1 Pin=P1-2
+Added Pin To Net: NetName=NetC_high_volt_1 Pin=P1-2
+Added Net: Name=NetC_high_volt_1
+Added Member To Class: ClassName=Pamp Member=Component C_high_volt DE2B3SA331KA3BY02F

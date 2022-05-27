@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GUARD_EXT Pin=P1-1
+Removed Member From Class: ClassName=Pamp Member=P1
+Added Component: Designator=*(SMA-J-P-H-ST-TH1-Footprint-1)
+Added Pin To Net: NetName=GUARD_EXT Pin=*-2
+Added Pin To Net: NetName=GUARD_EXT Pin=*-3
+Added Pin To Net: NetName=GUARD_EXT Pin=*-4
+Added Pin To Net: NetName=GUARD_EXT Pin=*-5
+Added Pin To Net: NetName=Net*_1 Pin=*-1
+Added Pin To Net: NetName=Net*_1 Pin=C_high_volt-1
+Added Net: Name=Net*_1
+Added Member To Class: ClassName=Pamp Member=Component * SMA-J-P-H-ST-TH1

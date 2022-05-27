@@ -1,0 +1,9 @@
+Change Footprint: Footprint Not Found 0805
+Change Footprint: Footprint Not Found 0805
+Added Component: Designator=*(LTC6655BHLS8-4.096#PBF-Footprint-1)
+Add Component: Footprint Not Found 1206
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Added Member To Class: ClassName=Pamp Member=Component * LTC6655BHLS8-4.096#PBF
+Added Member To Class: ClassName=Pamp Member=Component * LTC6655BHLS8-4.096#PBF
+Add Class Member: Failed to add class member : Component C2 X7R 16V

@@ -1,0 +1,43 @@
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 1206
+Added Component: Designator=Rauch C2_3(FP-GRM55D-0_4-MFG)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "2220"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "5750"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "2220"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "5.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.087inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5mm"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 1206
+Add Pin To Net: Unknown Pin: Pin C3V3-1
+Add Pin To Net: Unknown Pin: Pin C3V3-2
+Add Pin To Net: Unknown Pin: Pin Rauch C1-1
+Add Pin To Net: Unknown Pin: Pin Rauch C1-2
+Added Pin To Net: NetName=NetRauch C1_1 Pin=Rauch C2_3-1
+Add Pin To Net: Unknown Pin: Pin REF _C2-1
+Add Pin To Net: Unknown Pin: Pin REF _C2-2
+Added Pin To Net: NetName=NetRauch C2_3_2 Pin=Rauch-2
+Added Pin To Net: NetName=NetRauch C2_3_2 Pin=Rauch C2_3-2
+Added Pin To Net: NetName=NetRauch C2_3_2 Pin=Rauch R2_parraC-1
+Added Net: Name=NetRauch C2_3_2
+Add Class Member: Failed to add class member : Component C3V3 C0805
+Add Class Member: Failed to add class member : Component Rauch C1 X7R 250V
+Added Member To Class: ClassName=Pamp Member=Component Rauch C2_3 GRM55DR72E105KW01L
+Add Class Member: Failed to add class member : Component REF _C2 X7R 16V

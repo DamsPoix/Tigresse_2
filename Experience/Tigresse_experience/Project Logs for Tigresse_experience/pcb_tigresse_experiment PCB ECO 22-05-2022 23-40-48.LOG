@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=D3V3 Pin=PH2-2
+Change Net Name : Old Net Name=D3V3 New Net Name=NetADC C1_2

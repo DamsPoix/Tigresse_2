@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=NetADC_12 Pin=Ref-1
+Removed Pin From Net: NetName=NetADC_12 Pin=Ref-2
+Removed Pin From Net: NetName=AGND Pin=Ref-3
+Removed Pin From Net: NetName=AGND Pin=Ref-4
+Removed Pin From Net: NetName=AGND Pin=Ref-5
+Removed Pin From Net: NetName=REF5V Pin=Ref-6
+Removed Pin From Net: NetName=REF5V Pin=Ref-7
+Removed Pin From Net: NetName=AGND Pin=Ref-8
+Removed Member From Class: ClassName=Pamp Member=Ref
+Change Footprint: Footprint Not Found 0805
+Change Footprint: Footprint Not Found 0805
+Added Component: Designator=*(LTC6655BHLS8-4.096#PBF-Footprint-1)
+Added Component: Designator=*(LTC6655BHLS8-4.096#PBF-Footprint-1)
+Add Component: Footprint Not Found 1206
+Added Pin To Net: NetName=NetADC_12 Pin=*-1
+Added Pin To Net: NetName=NetADC_12 Pin=*-2
+Added Pin To Net: NetName=AGND Pin=*-3
+Added Pin To Net: NetName=AGND Pin=*-4
+Added Pin To Net: NetName=AGND Pin=*-5
+Added Pin To Net: NetName=REF5V Pin=*-6
+Added Pin To Net: NetName=REF5V Pin=*-7
+Added Pin To Net: NetName=AGND Pin=*-8
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Change Net Name : Old Net Name=NetADC_12 New Net Name=Net*_1
+Added Member To Class: ClassName=Pamp Member=Component * LTC6655BHLS8-4.096#PBF
+Added Member To Class: ClassName=Pamp Member=Component * LTC6655BHLS8-4.096#PBF
+Add Class Member: Failed to add class member : Component C2 X7R 16V

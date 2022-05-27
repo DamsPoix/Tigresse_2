@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=NetFilter8th_8 Pin=Rauch C2_1-1
+Removed Pin From Net: NetName=NetRauch C1_2 Pin=Rauch C2_1-2
+Change Component Footprint: Designator=Rauch C2_1 Old Footprint=0603 New Footprint=FP-C0805C-DN-MFG
+Change Component Comment : Designator=Rauch C2_1 Old Comment=X7R 16V New Comment=C0805C223K5RACTU
+Change Managed Component Library Link : Designator=Rauch C2_1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=89EE9D0F-B695-4F26-90A8-BA4F1A8946E6 Old RevisionGUID= New RevisionGUID=BE2204FB-188D-4162-873C-0738F9CDD8F2
+Change component parameters: Designator = "Rauch C2_1" ("Rauch C2_1"); Footprint = "0603"; UniqueID = "\EVUBKWBN\LSFXPUXZ" ("\EVUBKWBN\LSFXPUXZ")
+Change component parameters (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "22,000 pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Cap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Class L1"; Value = "Passive Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Class L2"; Value = "Capacitors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Class L3"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Description"; Value = "CAP CER 0.022UF 50V X7R 0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.88mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ipc Land Pattern Name"; Value = "CAPC200125X78"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C223K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Description"; Value = "Capacitor; Ceramic; Cap; .022uF; Tol 10%; SMT; Vol-Rtg 50V; X7R; Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Octopart"; Value = "https://octopart.com/c0805c223k5ractu-kemet-145968"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "C0805C-DN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Characteristic"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "30ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22,000 pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50 V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetRauch C1_2 Pin=Rauch C2_1-1
+Added Pin To Net: NetName=NetFilter8th_8 Pin=Rauch C2_1-2

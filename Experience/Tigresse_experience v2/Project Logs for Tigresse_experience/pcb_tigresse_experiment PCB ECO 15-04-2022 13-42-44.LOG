@@ -1,0 +1,78 @@
+Removed Pin From Net: NetName=GUARD Pin=S_R1_GUARD-1
+Removed Pin From Net: NetName=GUARD_EXT Pin=S_R1_GUARD-2
+Removed Member From Class: ClassName=Pamp Member=S_R1_GUARD
+Change Component Footprint: Designator=S_R5 Old Footprint=0603 New Footprint=RESC2013X70X40LL20T20
+Change Component Comment : Designator=S_R5 Old Comment=Res CMS New Comment=ERJ-6ENF1500V
+Change Managed Component Library Link : Designator=S_R5 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=21C49D9C-F181-44B6-9CE9-CFA8D204AC04 Old RevisionGUID= New RevisionGUID=3BFD6C92-ADAB-44C7-9AEA-19FE00E2FAC6
+Change component parameters: Designator = "S_R5" ("S_R5"); Footprint = "0603"; UniqueID = "\EVUBKWBN\XGAENSYG" ("\EVUBKWBN\XGAENSYG")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERJ-6ENF1500V"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found BS-7-ND
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found DO219-AB
+Add Component: Footprint Not Found DO219-AB
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Added Component: Designator=S_R_GUARD(FP-CRCW0805-e3-MFG)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "5000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "100kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "100ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "150V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "150V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.000194oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found Arduino MKRZero
+Add Pin To Net: Unknown Pin: Pin Batt_clock-1
+Add Pin To Net: Unknown Pin: Pin Batt_clock-2
+Add Pin To Net: Unknown Pin: Pin C15-1
+Add Pin To Net: Unknown Pin: Pin C15-2
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D2-1
+Add Pin To Net: Unknown Pin: Pin D2-2
+Add Pin To Net: Unknown Pin: Pin Rauch C1-1
+Add Pin To Net: Unknown Pin: Pin Rauch C1-2
+Add Pin To Net: Unknown Pin: Pin Rauch C2_3-1
+Add Pin To Net: Unknown Pin: Pin Rauch C2_3-2
+Add Pin To Net: Unknown Pin: Pin REF _C2-1
+Add Pin To Net: Unknown Pin: Pin REF _C2-2
+Added Pin To Net: NetName=GUARD Pin=S_R_GUARD-1
+Added Pin To Net: NetName=GUARD_EXT Pin=S_R_GUARD-2
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-3
+Add Pin To Net: Unknown Pin: Pin U7-7
+Add Pin To Net: Unknown Pin: Pin U7-15
+Add Pin To Net: Unknown Pin: Pin U7-21
+Add Pin To Net: Unknown Pin: Pin U7-22
+Add Pin To Net: Unknown Pin: Pin U7-23
+Add Pin To Net: Unknown Pin: Pin U7-25
+Add Pin To Net: Unknown Pin: Pin U7-26
+Add Class Member: Failed to add class member : Component Batt_clock BS-7
+Add Class Member: Failed to add class member : Component C15 C0805
+Add Class Member: Failed to add class member : Component D1 BZD27C200P
+Add Class Member: Failed to add class member : Component D2 BZD27C200P
+Add Class Member: Failed to add class member : Component Rauch C1 X7R 250V
+Add Class Member: Failed to add class member : Component Rauch C2_3 X7R 250V
+Add Class Member: Failed to add class member : Component REF _C2 X7R 16V
+Added Member To Class: ClassName=Pamp Member=Component S_R_GUARD CRCW0805100KFKEA
+Add Class Member: Failed to add class member : Component U7 Arduino MKRZero

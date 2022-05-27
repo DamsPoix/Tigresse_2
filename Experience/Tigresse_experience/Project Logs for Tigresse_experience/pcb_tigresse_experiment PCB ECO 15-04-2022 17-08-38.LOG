@@ -1,0 +1,153 @@
+Removed Pin From Net: NetName=DGND Pin=C14-1
+Removed Pin From Net: NetName=+VALIM Pin=R15-2
+Removed Pin From Net: NetName=DGND Pin=R16-2
+Removed Pin From Net: NetName=NetADC_16 Pin=R17-1
+Removed Pin From Net: NetName=NetADC_15 Pin=R18-1
+Removed Member From Class: ClassName=Data Member=C14
+Removed Member From Class: ClassName=Data Member=R15
+Removed Member From Class: ClassName=Data Member=R16
+Removed Member From Class: ClassName=Data Member=R17
+Removed Member From Class: ClassName=Data Member=R18
+Added Component: Designator=Alim_C1(CAPC0805(2012)75_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "50 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "Â±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10nF"; VariantName = "[No Variations]"
+Added Component: Designator=Alim_R1(FP-ERJ6EN-IPC_A)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Construction"; Value = "Rectangular"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Automotive AEC-Q200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1MR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "ERJ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "THICK FILM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "100ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "150V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "150V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.2mm"; VariantName = "[No Variations]"
+Added Component: Designator=Alim_R2(FP-CRCW0805-e3-MFG)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Automotive AEC-Q200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "5000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "91kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "100ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "150V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.000194oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.049inch"; VariantName = "[No Variations]"
+Added Component: Designator=BT(BATHLD-001)
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "rev1.0, Dec-2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Low Profile SM Battery Holder, 20mm Lithium Cell, 21.1 x 15.3 x 4.2 mm Body"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "BATHLD-001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "rev1.0, Dec-2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB_Layout"; Value = "Complies with manufacturer's recommendation."; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 0805
+Added Component: Designator=D1(PCBComponent_1)
+Added Component: Designator=D2(PCBComponent_1)
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Added Component: Designator=RRX(RESC2013X60X40ML20T25)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA6AEB473V"; VariantName = "[No Variations]"
+Added Component: Designator=RTX(RESC2013X60X40ML20T25)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA6AEB473V"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found Arduino MKRZero
+Added Pin To Net: NetName=DGND Pin=Alim_C1-1
+Added Pin To Net: NetName=+VALIM Pin=Alim_R1-1
+Added Pin To Net: NetName=DGND Pin=Alim_R2-1
+Added Pin To Net: NetName=DGND Pin=BT-1
+Add Pin To Net: Unknown Pin: Pin C15-1
+Add Pin To Net: Unknown Pin: Pin C15-2
+Added Pin To Net: NetName=AGND Pin=D1-C
+Added Pin To Net: NetName=SIG Pin=D2-C
+Add Pin To Net: Unknown Pin: Pin Rauch C1-1
+Add Pin To Net: Unknown Pin: Pin Rauch C1-2
+Add Pin To Net: Unknown Pin: Pin Rauch C2_3-1
+Add Pin To Net: Unknown Pin: Pin Rauch C2_3-2
+Add Pin To Net: Unknown Pin: Pin REF _C2-1
+Add Pin To Net: Unknown Pin: Pin REF _C2-2
+Added Pin To Net: NetName=NetADC_15 Pin=RRX-2
+Added Pin To Net: NetName=NetADC_16 Pin=RTX-2
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-3
+Add Pin To Net: Unknown Pin: Pin U7-15
+Add Pin To Net: Unknown Pin: Pin U7-21
+Add Pin To Net: Unknown Pin: Pin U7-25
+Add Pin To Net: Unknown Pin: Pin U7-26
+Added Pin To Net: NetName=NetAlim_C1_2 Pin=Alim_C1-2
+Added Pin To Net: NetName=NetAlim_C1_2 Pin=Alim_R1-2
+Added Pin To Net: NetName=NetAlim_C1_2 Pin=Alim_R2-2
+Added Net: Name=NetAlim_C1_2
+Added Pin To Net: NetName=NetBT_2 Pin=BT-2
+Added Pin To Net: NetName=NetBT_2 Pin=BT-3
+Added Pin To Net: NetName=NetBT_2 Pin=Clock-16
+Added Net: Name=NetBT_2
+Added Pin To Net: NetName=NetD1_A Pin=D1-A
+Added Pin To Net: NetName=NetD1_A Pin=D2-A
+Added Net: Name=NetD1_A
+Added Pin To Net: NetName=NetRRX_1 Pin=RRX-1
+Added Net: Name=NetRRX_1
+Added Pin To Net: NetName=NetRTX_1 Pin=RTX-1
+Added Net: Name=NetRTX_1
+Added Member To Class: ClassName=Data Member=Component Alim_C1 CAP 10nF 50V 0805(2012)
+Added Member To Class: ClassName=Data Member=Component Alim_R1 ERJ-6ENF1004V
+Added Member To Class: ClassName=Data Member=Component Alim_R2 CRCW080591K0FKEA
+Added Member To Class: ClassName=Data Member=Component BT BAT-HLD-001
+Add Class Member: Failed to add class member : Component C15 C0805
+Added Member To Class: ClassName=Pamp Member=Component D1 BZD27C200PWH
+Added Member To Class: ClassName=Pamp Member=Component D2 BZD27C200PWH
+Add Class Member: Failed to add class member : Component Rauch C1 X7R 250V
+Add Class Member: Failed to add class member : Component Rauch C2_3 X7R 250V
+Add Class Member: Failed to add class member : Component REF _C2 X7R 16V
+Added Member To Class: ClassName=Data Member=Component RRX ERA6AEB473V
+Added Member To Class: ClassName=Data Member=Component RTX ERA6AEB473V
+Added Member To Class: ClassName=Pamp Member=Component S_R4_OUT CRCW08051K00FKEA
+Added Member To Class: ClassName=Pamp Member=Component S_R_GUARD CRCW0805100KFKEA
+Add Class Member: Failed to add class member : Component U7 Arduino MKRZero

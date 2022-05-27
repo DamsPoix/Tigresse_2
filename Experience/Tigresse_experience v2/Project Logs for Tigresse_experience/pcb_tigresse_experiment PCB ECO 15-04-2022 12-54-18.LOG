@@ -1,0 +1,100 @@
+Change Component Comment : Designator=R8 Old Comment= New Comment=100K/1%
+Change Component Comment : Designator=R9 Old Comment= New Comment=100K/1%
+Change Component Comment : Designator=R10 Old Comment= New Comment=100K/1%
+Change Component Comment : Designator=R14 Old Comment= New Comment=120K/1%
+Change Component Comment : Designator=R6 Old Comment= New Comment=150K/1%
+Change Component Comment : Designator=R11 Old Comment= New Comment=240K/1%
+Change Component Comment : Designator=R12 Old Comment= New Comment=270K/1%
+Change Component Designator: OldDesignator=C7 NewDesignator=Filt C1GND
+Change Component Designator: OldDesignator=C10 NewDesignator=Filt C1
+Change Component Designator: OldDesignator=C11 NewDesignator=Filt C1OUT
+Change Component Designator: OldDesignator=C12 NewDesignator=Filt C5N
+Change Component Designator: OldDesignator=C13 NewDesignator=Filt C5P
+Change Component Designator: OldDesignator=R6 NewDesignator=Soust_R4
+Change Component Designator: OldDesignator=R8 NewDesignator=Filt R3OUT
+Change Component Designator: OldDesignator=R9 NewDesignator=R1 OUT
+Change Component Designator: OldDesignator=R10 NewDesignator=Filt R2OUT
+Change Component Designator: OldDesignator=R11 NewDesignator=Soust_R1
+Change Component Designator: OldDesignator=R12 NewDesignator=Soust_R2
+Change Component Designator: OldDesignator=R14 NewDesignator=Soust_R3
+Change component parameters: Designator = "C7" ("C7"); Footprint = "1608[0603]"; UniqueID = "\EVUBKWBN\RMLBQPJL" ("\EVUBKWBN\RMLBQPJL")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11" ("C11"); Footprint = "1608[0603]"; UniqueID = "\EVUBKWBN\EKWOKVGG" ("\EVUBKWBN\EKWOKVGG")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "0603"; UniqueID = "\EVUBKWBN\SWVRHBCJ" ("\EVUBKWBN\SWVRHBCJ")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10" ("R10"); Footprint = "0603"; UniqueID = "\EVUBKWBN\WCMYXJNV" ("\EVUBKWBN\WCMYXJNV")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found BS-7-ND
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found DO219-AB
+Add Component: Footprint Not Found DO219-AB
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found Arduino MKRZero
+Add Pin To Net: Unknown Pin: Pin Batt_clock-1
+Add Pin To Net: Unknown Pin: Pin Batt_clock-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C15-1
+Add Pin To Net: Unknown Pin: Pin C15-2
+Add Pin To Net: Unknown Pin: Pin C16-1
+Add Pin To Net: Unknown Pin: Pin C16-2
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D2-1
+Add Pin To Net: Unknown Pin: Pin D2-2
+Add Pin To Net: Unknown Pin: Pin Rauch C1-1
+Add Pin To Net: Unknown Pin: Pin Rauch C1-2
+Add Pin To Net: Unknown Pin: Pin Rauch C2_3-1
+Add Pin To Net: Unknown Pin: Pin Rauch C2_3-2
+Add Pin To Net: Unknown Pin: Pin REF _C2-1
+Add Pin To Net: Unknown Pin: Pin REF _C2-2
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-3
+Add Pin To Net: Unknown Pin: Pin U7-7
+Add Pin To Net: Unknown Pin: Pin U7-15
+Add Pin To Net: Unknown Pin: Pin U7-21
+Add Pin To Net: Unknown Pin: Pin U7-22
+Add Pin To Net: Unknown Pin: Pin U7-23
+Add Pin To Net: Unknown Pin: Pin U7-25
+Add Pin To Net: Unknown Pin: Pin U7-26
+Change Net Name : Old Net Name=NetC7_2 New Net Name=NetFilt C1GND_2
+Change Net Name : Old Net Name=NetC10_1 New Net Name=NetFilt C1_1
+Change Net Name : Old Net Name=NetC11_1 New Net Name=NetFilt C1OUT_1
+Change Net Name : Old Net Name=NetC11_2 New Net Name=NetFilt C1OUT_2
+Change Net Name : Old Net Name=NetR6_1 New Net Name=NetSoust_R1_1
+Change Net Name : Old Net Name=NetR12_1 New Net Name=NetSoust_R2_1
+Add Class Member: Failed to add class member : Component Batt_clock BS-7
+Add Class Member: Failed to add class member : Component C4 C0805
+Add Class Member: Failed to add class member : Component C15 C0805
+Add Class Member: Failed to add class member : Component C16 C0805
+Add Class Member: Failed to add class member : Component D1 BZD27C200P
+Add Class Member: Failed to add class member : Component D2 BZD27C200P
+Add Class Member: Failed to add class member : Component Rauch C1 X7R 250V
+Add Class Member: Failed to add class member : Component Rauch C2_3 X7R 250V
+Add Class Member: Failed to add class member : Component REF _C2 X7R 16V
+Add Class Member: Failed to add class member : Component U7 Arduino MKRZero

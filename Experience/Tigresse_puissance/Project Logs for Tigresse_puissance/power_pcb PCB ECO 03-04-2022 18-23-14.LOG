@@ -1,0 +1,46 @@
+Added Component: Designator=SW1(FP-A101SYCB04-MFG)
+Add component (AddParameter): Name = "Actuator Color"; Value = "Chrome"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Length"; Value = "10.41mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Material"; Value = "Phenolic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Type"; Value = "Standard Round"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Current Rating"; Value = "400mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "10mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "6.86mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Electrical Life"; Value = "6000Cycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ELV"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Illumination Type"; Value = "Non-Illuminated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "30MR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "20V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "20V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-30°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Panel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Poles"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "400mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "Gemini A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Function"; Value = "On-On"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "PC Pins"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Throw Configuration"; Value = "SPDT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (AC)"; Value = "20V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "20V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SW_PWR Pin=R2-1
+Added Pin To Net: NetName=NetD1_2 Pin=SW1-1
+Added Pin To Net: NetName=SW_PWR Pin=SW1-2
+Added Pin To Net: NetName=-VBAT Pin=SW1-3
+Change Net Name : Old Net Name=NetD1_1 New Net Name=+VBAT
+Added Member To Class: ClassName=Puissance Member=Component C1 X7R/25V
+Added Member To Class: ClassName=Puissance Member=Component L2 XFL4020-222MEC
+Added Member To Class: ClassName=Puissance Member=Component R20
+Added Member To Class: ClassName=Puissance Member=Component SW1 A101SYCB04
+Added Member To Class: ClassName=Puissance Member=Component U2 LT1611CS5

@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetDiodevbat_2 Pin=R1-1
+Removed Pin From Net: NetName=NetNPN_Gpmos2_3 Pin=R1-2
+Change Component Footprint: Designator=R1 Old Footprint=0603 New Footprint=RESC1608X55X30LL15T15
+Change Component Comment : Designator=R1 Old Comment=Res CMS New Comment=ERJ-3EKF1004V
+Change Managed Component Library Link : Designator=R1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=A3BCC8F6-70F6-4E80-92C9-D05252E1222B Old RevisionGUID= New RevisionGUID=9DF0B316-06DE-4C16-A807-0FBCBE9D9FD4
+Change component parameters: Designator = "R1" ("R1"); Footprint = "0603"; UniqueID = "\BIAITUGR" ("\BIAITUGR")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERJ-3EKF1004V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetNPN_Gpmos2_3 Pin=R1-1
+Added Pin To Net: NetName=NetDiodevbat_2 Pin=R1-2

@@ -1,0 +1,18 @@
+Change Footprint: Footprint Not Found 0805
+Change Footprint: Footprint Not Found 0805
+Change Component Designator: OldDesignator=U? NewDesignator=Filtre
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found LT-MS8-8_N
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-4
+Add Pin To Net: Unknown Pin: Pin U1-5
+Add Pin To Net: Unknown Pin: Pin U1-6
+Add Pin To Net: Unknown Pin: Pin U1-7
+Add Pin To Net: Unknown Pin: Pin U1-8
+Change Net Name : Old Net Name=NetRauch_6 New Net Name=NetFiltre_8
+Add Class Member: Failed to add class member : Component C2 X7R 16V
+Add Class Member: Failed to add class member : Component U1 LTC6655

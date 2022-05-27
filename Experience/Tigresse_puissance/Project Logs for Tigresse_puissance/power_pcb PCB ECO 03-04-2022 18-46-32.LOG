@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=DGND Pin=Q3-2
+Removed Pin From Net: NetName=D3V3 Pin=R6-1
+Removed Pin From Net: NetName=SW_PWR Pin=R9-1
+Removed Pin From Net: NetName=-VBAT Pin=R10-2
+Removed Pin From Net: NetName=-VBAT Pin=R18-2
+Removed Member From Class: ClassName=Puissance Member=Q3
+Removed Member From Class: ClassName=Puissance Member=R6
+Removed Member From Class: ClassName=Puissance Member=R7
+Removed Member From Class: ClassName=Puissance Member=R9
+Removed Member From Class: ClassName=Puissance Member=R10
+Removed Member From Class: ClassName=Puissance Member=R18
+Change Component Designator: OldDesignator=C11 NewDesignator=CVALIM
+Change Component Designator: OldDesignator=R17 NewDesignator=RAGND
+Change Component Designator: OldDesignator=R19 NewDesignator=RDGND

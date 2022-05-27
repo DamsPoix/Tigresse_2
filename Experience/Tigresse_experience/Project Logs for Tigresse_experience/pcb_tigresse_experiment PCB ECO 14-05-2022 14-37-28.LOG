@@ -1,0 +1,174 @@
+Change Footprint: Footprint Not Found 0805
+Change Footprint: Footprint Not Found 0805
+Change Component Designator: OldDesignator=C8 NewDesignator=Fil C8
+Change Component Designator: OldDesignator=C9 NewDesignator=Fil C9
+Change Component Designator: OldDesignator=C10 NewDesignator=Fil C10
+Change Component Designator: OldDesignator=C11 NewDesignator=Fil C11
+Change Component Designator: OldDesignator=C12 NewDesignator=Fil C12
+Change Component Designator: OldDesignator=R3 NewDesignator=Fil R3
+Change Component Designator: OldDesignator=R4 NewDesignator=Fil R4
+Change Component Designator: OldDesignator=R5 NewDesignator=Fil R5
+Change Component Designator: OldDesignator=R6 NewDesignator=Sous R6
+Change Component Designator: OldDesignator=R7 NewDesignator=Sous R7
+Change Component Designator: OldDesignator=R8 NewDesignator=Sous R8
+Change Component Designator: OldDesignator=R9 NewDesignator=Sous R9
+Add Component: Footprint Not Found 1206
+Added Component: Designator=Rauch C6(FP-CGA4J-IPC_C)
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Soft Termination"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "AEC-Q200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.049inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.000194oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.049inch"; VariantName = "[No Variations]"
+Added Component: Designator=Rauch C7(FP-CGA8R-IPC_B)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "1812"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "4532"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "1812"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "3.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "2.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "4.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "AEC-Q200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.098inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.000952oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.126inch"; VariantName = "[No Variations]"
+Added Component: Designator=Rauch(ADI-R-8_M)
+Add component (AddParameter): Name = "Amplifiers Per Package"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-012-AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.analog.com/en/index.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.analog.com/static/imported-files/data_sheets/AD8641_8642_8643.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_Narrow%20(R)/R_8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Reference Circuit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://www.analog.com/en/all-operational-amplifiers-op-amps/operational-amplifiers-op-amps/ad8641/products/product.html#product-recommendations"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Generic Part Number"; Value = "AD8641"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Bias Current"; Value = "250fA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Offset Voltage"; Value = "50uV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Iq/Amp"; Value = "250ÂµA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Pin Standard Small Outline Package, Body 3.9 x 4.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "R-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "060506-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AD8641ARZ-REEL7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RevisionNote"; Value = "Reference Circuit URL fixed"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate"; Value = "2V/us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Small Signal Bandwidth"; Value = "3MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "V Span Max"; Value = "26V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "V Span Min"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=Soustracteur(ADI-R-8_M)
+Add component (AddParameter): Name = "Amplifiers Per Package"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-012-AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.analog.com/en/index.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.analog.com/static/imported-files/data_sheets/AD8641_8642_8643.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_Narrow%20(R)/R_8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Reference Circuit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://www.analog.com/en/all-operational-amplifiers-op-amps/operational-amplifiers-op-amps/ad8641/products/product.html#product-recommendations"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Generic Part Number"; Value = "AD8641"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Bias Current"; Value = "250fA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Offset Voltage"; Value = "50uV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Iq/Amp"; Value = "250ÂµA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Pin Standard Small Outline Package, Body 3.9 x 4.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "R-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "060506-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AD8641ARZ-REEL7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RevisionNote"; Value = "Reference Circuit URL fixed"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate"; Value = "2V/us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Small Signal Bandwidth"; Value = "3MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "V Span Max"; Value = "26V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "V Span Min"; Value = "5V"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found LT-MS8-8_N
+Add Component: Footprint Not Found MAXM-S8+5_N
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Added Pin To Net: NetName=AGND Pin=Rauch-3
+Added Pin To Net: NetName=A-5V Pin=Rauch-4
+Added Pin To Net: NetName=A+5V Pin=Rauch-7
+Added Pin To Net: NetName=SIG Pin=Rauch C6-1
+Added Pin To Net: NetName=NetRauch C4_2 Pin=Rauch C6-2
+Added Pin To Net: NetName=NetRauch C4_2 Pin=Rauch C7-1
+Added Pin To Net: NetName=AGND Pin=Soustracteur-4
+Added Pin To Net: NetName=AC Pin=Soustracteur-6
+Added Pin To Net: NetName=A+5V Pin=Soustracteur-7
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-4
+Add Pin To Net: Unknown Pin: Pin U1-5
+Add Pin To Net: Unknown Pin: Pin U1-6
+Add Pin To Net: Unknown Pin: Pin U1-7
+Add Pin To Net: Unknown Pin: Pin U1-8
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-6
+Add Pin To Net: Unknown Pin: Pin U3-7
+Change Net Name : Old Net Name=NetC8_2 New Net Name=NetFil C8_2
+Change Net Name : Old Net Name=NetC10_2 New Net Name=NetFil C10_2
+Added Pin To Net: NetName=NetFil C9_1 Pin=Fil C9-1
+Added Net: Name=NetFil C9_1
+Added Pin To Net: NetName=NetFil C10_1 Pin=Fil C10-1
+Added Pin To Net: NetName=NetFil C10_1 Pin=Fil R5-1
+Added Net: Name=NetFil C10_1
+Added Pin To Net: NetName=NetFil R3_1 Pin=Fil R3-1
+Added Net: Name=NetFil R3_1
+Added Pin To Net: NetName=NetFil R4_1 Pin=Fil R4-1
+Added Net: Name=NetFil R4_1
+Added Pin To Net: NetName=NetRauch_6 Pin=Rauch-6
+Added Net: Name=NetRauch_6
+Added Pin To Net: NetName=NetRauch C7_2 Pin=Rauch-2
+Added Pin To Net: NetName=NetRauch C7_2 Pin=Rauch C7-2
+Added Pin To Net: NetName=NetRauch C7_2 Pin=Rauch R1-1
+Added Net: Name=NetRauch C7_2
+Added Pin To Net: NetName=NetSous R6_1 Pin=Sous R6-1
+Added Pin To Net: NetName=NetSous R6_1 Pin=Sous R7-1
+Added Pin To Net: NetName=NetSous R6_1 Pin=Soustracteur-2
+Added Net: Name=NetSous R6_1
+Added Pin To Net: NetName=NetSous R8_1 Pin=Sous R8-1
+Added Pin To Net: NetName=NetSous R8_1 Pin=Sous R9-1
+Added Pin To Net: NetName=NetSous R8_1 Pin=Soustracteur-3
+Added Net: Name=NetSous R8_1
+Add Class Member: Failed to add class member : Component C2 X7R 16V
+Added Member To Class: ClassName=Pamp Member=Component Rauch C6 CGA4J3X7T2E104M125AE
+Added Member To Class: ClassName=Pamp Member=Component Rauch C7 CGA8P3X7T2E105K250KA
+Added Member To Class: ClassName=Pamp Member=Component Rauch AD8641ARZ-REEL7
+Added Member To Class: ClassName=Pamp Member=Component Soustracteur AD8641ARZ-REEL7
+Add Class Member: Failed to add class member : Component U1 LTC6655
+Add Class Member: Failed to add class member : Component U3 MAX295CSA+

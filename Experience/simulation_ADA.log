@@ -1,0 +1,102 @@
+Circuit: * D:\Polytech Associatif\Space'Tech\Tigresse-2\Experience\simulation_ADA.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.02385
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 1.02347
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 1.01452
+vernier = 0.00520833
+vernier = 0.00260417
+vernier = 0.00130208
+Gmin = 1.00991
+vernier = 0.00173611
+vernier = 0.000868055
+Gmin = 1.00739
+vernier = 0.00115741
+vernier = 0.000578703
+Gmin = 1.00586
+vernier = 0.000771604
+vernier = 0.000578703
+Gmin = 1.0046
+vernier = 0.000771604
+vernier = 0.000578703
+vernier = 0.000434027
+vernier = 0.000578703
+Gmin = 1.00391
+vernier = 0.000434027
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 15.9091%
+Source Step = 17.803%
+Source Step = 19.697%
+Source Step = 21.5909%
+Source Step = 23.4848%
+vernier = 0.09375
+Source Step = 25.6629%
+Source Step = 28.5038%
+Source Step = 31.3447%
+Source Step = 34.1856%
+Source Step = 37.0265%
+vernier = 0.140625
+Source Step = 40.1515%
+Source Step = 42.0691%
+Source Step = 43.1345%
+Source Step = 44.1998%
+Source Step = 45.2652%
+Source Step = 46.3305%
+vernier = 0.0527344
+Source Step = 47.6622%
+Source Step = 49.2602%
+Source Step = 50.8582%
+Source Step = 52.4562%
+Source Step = 54.0542%
+vernier = 0.0791016
+Source Step = 55.9718%
+Source Step = 58.3688%
+Source Step = 60.7659%
+Source Step = 63.1629%
+Source Step = 65.5599%
+vernier = 0.118652
+Source Step = 68.3165%
+Source Step = 71.912%
+Source Step = 75.5075%
+Source Step = 79.103%
+Source Step = 82.6986%
+vernier = 0.177979
+Source Step = 86.6536%
+Source Step = 92.0469%
+Source Step = 97.4402%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Sun Apr 03 17:31:36 2022
+Total elapsed time: 0.954 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 10089
+traniter = 2544
+tranpoints = 1273
+accept = 792
+rejected = 481
+matrix size = 118
+fillins = 206
+solver = Normal
+Thread vector: 13.3/7.8[4] 5.2/2.7[4] 4.8/4.6[1] 0.5/0.8[1]  2592/500
+Matrix Compiler1: 15.03 KB object code size  2.9/2.4/[0.8]
+Matrix Compiler2: 13.41 KB object code size  1.4/2.2/[0.7]
+

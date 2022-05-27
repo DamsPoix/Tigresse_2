@@ -1,0 +1,49 @@
+Removed Pin From Net: NetName=NetClock_17 Pin=P2-1
+Removed Pin From Net: NetName=NetClock_18 Pin=P2-2
+Removed Pin From Net: NetName=D3V3 Pin=P2-12
+Removed Pin From Net: NetName=DGND Pin=P3-16
+Removed Member From Class: ClassName=Data Member=P2
+Removed Member From Class: ClassName=Data Member=P3
+Removed Member From Class: ClassName=Pamp Member=P3
+Added Component: Designator=PH1(691701340012B)
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://katalog.we-online.de/em/datasheet/6917013400xxB.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to105degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "691701340012B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "691701340012B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "3.81mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Added Component: Designator=PH2(691701340012B)
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://katalog.we-online.de/em/datasheet/6917013400xxB.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to105degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "691701340012B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "691701340012B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "3.81mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DGND Pin=PH1-12
+Added Pin To Net: NetName=NetClock_17 Pin=PH2-1
+Added Pin To Net: NetName=NetClock_18 Pin=PH2-2
+Added Pin To Net: NetName=D3V3 Pin=PH2-12
+Added Pin To Net: NetName=NetPH1_10 Pin=PH1-10
+Added Pin To Net: NetName=NetPH1_10 Pin=RRX?-1
+Added Net: Name=NetPH1_10
+Added Pin To Net: NetName=NetPH1_11 Pin=PH1-11
+Added Pin To Net: NetName=NetPH1_11 Pin=RTX-1
+Added Net: Name=NetPH1_11
+Added Pin To Net: NetName=NetPH2_9 Pin=PH2-9
+Added Pin To Net: NetName=NetPH2_9 Pin=RDRDY-1
+Added Net: Name=NetPH2_9
+Added Member To Class: ClassName=Pamp Member=Component P1 SMA
+Added Member To Class: ClassName=Data Member=Component PH1 691701340012B
+Added Member To Class: ClassName=Data Member=Component PH2 691701340012B

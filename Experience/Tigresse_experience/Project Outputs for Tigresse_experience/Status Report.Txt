@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Tigresse_experience.PrjPcb]
+   Generated File[pcb_tigresse_experiment.TXT]
+   Generated File[pcb_tigresse_experiment.LDP]
+   Generated File[pcb_tigresse_experiment.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 13:21:25 On 26/05/2022

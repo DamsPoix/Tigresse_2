@@ -1,0 +1,46 @@
+Change Footprint: Footprint Not Found 0805
+Change Footprint: Footprint Not Found 0805
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found LT-MS8-8_N
+Added Component: Designator=U?(MAXM-S8-5_M)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.maximintegrated.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://datasheets.maximintegrated.com/en/ds/MAX291-MAX296.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://pdfserv.maximintegrated.com/package_dwgs/21-0041.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Filter Characteristic"; Value = "Butterworth"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Filter Class"; Value = "Switched Cap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Filter Sections"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Filter Type"; Value = "Lowpass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Generic Part Number"; Value = "MAX295"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Order Per Filter Section"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Pin Small-Outline IC, Narrow (0.15in) (S8-5), Body 4.90 x 3.90 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "S8-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. D, 10/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "MAX295CSA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Program Method"; Value = "Clock"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-4
+Add Pin To Net: Unknown Pin: Pin U1-5
+Add Pin To Net: Unknown Pin: Pin U1-6
+Add Pin To Net: Unknown Pin: Pin U1-7
+Add Pin To Net: Unknown Pin: Pin U1-8
+Added Pin To Net: NetName=NetFil C9_1 Pin=U?-1
+Added Pin To Net: NetName=A-5V Pin=U?-2
+Added Pin To Net: NetName=NetFil R3_1 Pin=U?-3
+Added Pin To Net: NetName=NetFil C10_1 Pin=U?-4
+Added Pin To Net: NetName=NetFil R4_1 Pin=U?-5
+Added Pin To Net: NetName=AGND Pin=U?-6
+Added Pin To Net: NetName=A+5V Pin=U?-7
+Added Pin To Net: NetName=NetRauch_6 Pin=U?-8
+Add Class Member: Failed to add class member : Component C2 X7R 16V
+Add Class Member: Failed to add class member : Component U1 LTC6655
+Added Member To Class: ClassName=Pamp Member=Component U? MAX295CSA

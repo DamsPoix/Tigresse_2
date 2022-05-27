@@ -1,0 +1,25 @@
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Change Footprint: Footprint Not Found 0805
+Change Footprint: Footprint Not Found 0805
+Add Component: Footprint Not Found 1206
+Added Component: Designator=REF(LTC6655BHLS8-4.096#PBF-Footprint-1)
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Added Pin To Net: NetName=Net*_1 Pin=REF-1
+Added Pin To Net: NetName=Net*_1 Pin=REF-2
+Added Pin To Net: NetName=AGND Pin=REF-3
+Added Pin To Net: NetName=AGND Pin=REF-4
+Added Pin To Net: NetName=AGND Pin=REF-5
+Added Pin To Net: NetName=REF5V Pin=REF-6
+Added Pin To Net: NetName=REF5V Pin=REF-7
+Added Pin To Net: NetName=AGND Pin=REF-8
+Change Net Name : Old Net Name=Net*_1 New Net Name=NetADC_12
+Add Class Member: Failed to add class member : Component C2 X7R 16V
+Added Member To Class: ClassName=Pamp Member=Component REF LTC6655BHLS8-4.096#PBF

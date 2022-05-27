@@ -1,0 +1,79 @@
+Removed Pin From Net: NetName=D3V3 Pin=R20-1
+Removed Pin From Net: NetName=NetClock_18 Pin=R20-2
+Removed Pin From Net: NetName=D3V3 Pin=R21-1
+Removed Pin From Net: NetName=NetClock_17 Pin=R21-2
+Removed Pin From Net: NetName=NetADC_14 Pin=R23-1
+Removed Member From Class: ClassName=Data Member=R20
+Removed Member From Class: ClassName=Data Member=R21
+Removed Member From Class: ClassName=Data Member=R23
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Added Component: Designator=RDRDY(RESC2013X60X40ML20T25)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA6AEB473V"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 1206
+Added Component: Designator=RSCL(YAGO-RC0805_M)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/NewPortal/_en/index.jsp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L-3.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 2 x 1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0805FR-074K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.125 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "4700 Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Max"; Value = "155 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Min"; Value = "-55 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "+/- 1%"; VariantName = "[No Variations]"
+Added Component: Designator=RSDA(YAGO-RC0805_M)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/NewPortal/_en/index.jsp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L-3.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 2 x 1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0805FR-074K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.125 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "4700 Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Max"; Value = "155 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Min"; Value = "-55 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "+/- 1%"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found Arduino MKRZero
+Add Pin To Net: Unknown Pin: Pin C3V3-1
+Add Pin To Net: Unknown Pin: Pin C3V3-2
+Add Pin To Net: Unknown Pin: Pin Rauch C1-1
+Add Pin To Net: Unknown Pin: Pin Rauch C1-2
+Add Pin To Net: Unknown Pin: Pin Rauch C2_3-1
+Add Pin To Net: Unknown Pin: Pin Rauch C2_3-2
+Added Pin To Net: NetName=NetADC_14 Pin=RDRDY-2
+Add Pin To Net: Unknown Pin: Pin REF _C2-1
+Add Pin To Net: Unknown Pin: Pin REF _C2-2
+Added Pin To Net: NetName=D3V3 Pin=RSCL-1
+Added Pin To Net: NetName=NetClock_18 Pin=RSCL-2
+Added Pin To Net: NetName=D3V3 Pin=RSDA-1
+Added Pin To Net: NetName=NetClock_17 Pin=RSDA-2
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-3
+Add Pin To Net: Unknown Pin: Pin U7-7
+Add Pin To Net: Unknown Pin: Pin U7-21
+Add Pin To Net: Unknown Pin: Pin U7-22
+Add Pin To Net: Unknown Pin: Pin U7-23
+Add Pin To Net: Unknown Pin: Pin U7-25
+Add Pin To Net: Unknown Pin: Pin U7-26
+Added Pin To Net: NetName=NetRDRDY_1 Pin=RDRDY-1
+Added Net: Name=NetRDRDY_1
+Add Class Member: Failed to add class member : Component C3V3 C0805
+Add Class Member: Failed to add class member : Component Rauch C1 X7R 250V
+Add Class Member: Failed to add class member : Component Rauch C2_3 X7R 250V
+Added Member To Class: ClassName=Data Member=Component RDRDY ERA6AEB473V
+Add Class Member: Failed to add class member : Component REF _C2 X7R 16V
+Added Member To Class: ClassName=Data Member=Component RSCL RC0805FR-074K7L
+Added Member To Class: ClassName=Data Member=Component RSDA RC0805FR-074K7L
+Add Class Member: Failed to add class member : Component U7 Arduino MKRZero

@@ -1,0 +1,47 @@
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found BS-7-ND
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found DO219-AB
+Add Component: Footprint Not Found DO219-AB
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found Arduino MKRZero
+Add Pin To Net: Unknown Pin: Pin AD_C1-1
+Add Pin To Net: Unknown Pin: Pin AD_C1-2
+Add Pin To Net: Unknown Pin: Pin ADC_C2-1
+Add Pin To Net: Unknown Pin: Pin ADC_C2-2
+Add Pin To Net: Unknown Pin: Pin Batt_clock-1
+Add Pin To Net: Unknown Pin: Pin Batt_clock-2
+Add Pin To Net: Unknown Pin: Pin C15-1
+Add Pin To Net: Unknown Pin: Pin C15-2
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D2-1
+Add Pin To Net: Unknown Pin: Pin D2-2
+Add Pin To Net: Unknown Pin: Pin Rauch C1-1
+Add Pin To Net: Unknown Pin: Pin Rauch C1-2
+Add Pin To Net: Unknown Pin: Pin Rauch C2_3-1
+Add Pin To Net: Unknown Pin: Pin Rauch C2_3-2
+Add Pin To Net: Unknown Pin: Pin REF _C2-1
+Add Pin To Net: Unknown Pin: Pin REF _C2-2
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-3
+Add Pin To Net: Unknown Pin: Pin U7-7
+Add Pin To Net: Unknown Pin: Pin U7-15
+Add Pin To Net: Unknown Pin: Pin U7-21
+Add Pin To Net: Unknown Pin: Pin U7-22
+Add Pin To Net: Unknown Pin: Pin U7-23
+Add Pin To Net: Unknown Pin: Pin U7-25
+Add Pin To Net: Unknown Pin: Pin U7-26
+Add Class Member: Failed to add class member : Component AD_C1 C0805
+Add Class Member: Failed to add class member : Component ADC_C2 C0805
+Add Class Member: Failed to add class member : Component Batt_clock BS-7
+Add Class Member: Failed to add class member : Component C15 C0805
+Add Class Member: Failed to add class member : Component D1 BZD27C200P
+Add Class Member: Failed to add class member : Component D2 BZD27C200P
+Add Class Member: Failed to add class member : Component Rauch C1 X7R 250V
+Add Class Member: Failed to add class member : Component Rauch C2_3 X7R 250V
+Add Class Member: Failed to add class member : Component REF _C2 X7R 16V
+Add Class Member: Failed to add class member : Component U7 Arduino MKRZero

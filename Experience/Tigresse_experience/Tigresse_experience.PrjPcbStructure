@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=schumann_exp.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=schumann_exp.SchDoc|Designator=Data|SchDesignator=Data|FileName=Data.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Data.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=schumann_exp.SchDoc|Designator=Pamp|SchDesignator=Pamp|FileName=Pamp.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Pamp.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

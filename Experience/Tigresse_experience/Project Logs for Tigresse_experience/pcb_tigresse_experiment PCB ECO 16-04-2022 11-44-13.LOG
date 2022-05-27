@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=Data Member=P1
+Change Component Designator: OldDesignator=P1 NewDesignator=P3
+Change Net Name : Old Net Name=NetP1_14 New Net Name=NetP3_14
+Change Net Name : Old Net Name=NetP1_15 New Net Name=NetP3_15
+Added Member To Class: ClassName=Data Member=Component P3 61301611121

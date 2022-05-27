@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=A+5V Pin=P?-1
+Removed Pin From Net: NetName=DGND Pin=P?-2
+Removed Pin From Net: NetName=A-5V Pin=P?-3
+Removed Pin From Net: NetName=AGND Pin=P?-4
+Removed Pin From Net: NetName=REF5V Pin=P?-5
+Removed Pin From Net: NetName=D3V3 Pin=P?-7
+Removed Pin From Net: NetName=REFALIM Pin=P?-9
+Change Component Footprint: Designator=P? Old Footprint=62101021021 New Footprint=SMTC-TSW-106-07-X-D
+Change Component Comment : Designator=P? Old Comment=62101021021 New Comment=TSW-106-07-G-D
+Change Managed Component Library Link : Designator=P? Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=B2FC3BEA-061A-4A5D-828E-F60CD898530C New ItemGUID=14AC32A5-EFF5-4C6E-88D8-EB7A839CD487 Old RevisionGUID=F5BD2FEC-56E5-48EC-A339-5CA3736A2CA5 New RevisionGUID=846D90DB-2397-477D-93DC-A8F83B9157FD
+Change component parameters: Designator = "P?" ("P?"); Footprint = "62101021021"; UniqueID = "\RXNZPNAM\MMDJQHXV" ("\RXNZPNAM\MMDJQHXV")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.samtec.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.samtec.com/documents/webfiles/pdf/TSW_TH.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.samtec.com/documents/webfiles/cpdf/TSW-XXX-XX-XXX-X-XX-XXX-MKT.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "F-214"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Through-hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = ".025[0.64] SQ. Post Terminal Strip Assembly"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "TSW-106-07-X-D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "DM, 8/1988"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "TSW-106-07-G-D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range"; Value = "-55 to 125 degC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=REFALIM Pin=P?-4
+Added Pin To Net: NetName=D3V3 Pin=P?-6
+Added Pin To Net: NetName=REF5V Pin=P?-8
+Added Pin To Net: NetName=AGND Pin=P?-9
+Added Pin To Net: NetName=A-5V Pin=P?-10
+Added Pin To Net: NetName=DGND Pin=P?-11
+Added Pin To Net: NetName=A+5V Pin=P?-12

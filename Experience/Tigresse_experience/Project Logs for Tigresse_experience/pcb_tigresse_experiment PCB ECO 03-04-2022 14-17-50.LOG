@@ -1,0 +1,110 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C3
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Change Component Designator: OldDesignator=U? NewDesignator=U3
+Change Component Designator: OldDesignator=U? NewDesignator=U5
+Add Component: Footprint Not Found BS-7-ND
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found DO219-AB
+Add Component: Footprint Not Found DO219-AB
+Add Component: Footprint Not Found BIGLED
+Add Component: Footprint Not Found BS-SSMA
+Added Component: Designator=U1(SOP65P640X120-16N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ADS122U04IPWR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found ADI-RM-8_N
+Add Component: Footprint Not Found W16#H2
+Add Component: Footprint Not Found Arduino MKRZero
+Add Pin To Net: Unknown Pin: Pin BT1-1
+Add Pin To Net: Unknown Pin: Pin BT1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C9-1
+Add Pin To Net: Unknown Pin: Pin C9-2
+Add Pin To Net: Unknown Pin: Pin C15-1
+Add Pin To Net: Unknown Pin: Pin C15-2
+Add Pin To Net: Unknown Pin: Pin C16-1
+Add Pin To Net: Unknown Pin: Pin C16-2
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D2-1
+Add Pin To Net: Unknown Pin: Pin D2-2
+Add Pin To Net: Unknown Pin: Pin D3-1
+Add Pin To Net: Unknown Pin: Pin D3-2
+Add Pin To Net: Unknown Pin: Pin P1-2
+Added Pin To Net: NetName=AGND Pin=U1-1
+Added Pin To Net: NetName=AGND Pin=U1-2
+Added Pin To Net: NetName=D3V3 Pin=U1-3
+Added Pin To Net: NetName=AGND Pin=U1-4
+Added Pin To Net: NetName=AGND Pin=U1-5
+Added Pin To Net: NetName=AGND Pin=U1-6
+Added Pin To Net: NetName=AGND Pin=U1-8
+Added Pin To Net: NetName=REF5V Pin=U1-9
+Added Pin To Net: NetName=AGND Pin=U1-10
+Added Pin To Net: NetName=AC Pin=U1-11
+Added Pin To Net: NetName=A+5V Pin=U1-12
+Added Pin To Net: NetName=D3V3 Pin=U1-13
+Added Pin To Net: NetName=DRDY Pin=U1-14
+Added Pin To Net: NetName=UART_RX Pin=U1-15
+Added Pin To Net: NetName=UART_TX Pin=U1-16
+Add Pin To Net: Unknown Pin: Pin U4-4
+Add Pin To Net: Unknown Pin: Pin U4-5
+Add Pin To Net: Unknown Pin: Pin U4-6
+Add Pin To Net: Unknown Pin: Pin U4-7
+Add Pin To Net: Unknown Pin: Pin U4-8
+Add Pin To Net: Unknown Pin: Pin U6-2
+Add Pin To Net: Unknown Pin: Pin U6-5
+Add Pin To Net: Unknown Pin: Pin U6-6
+Add Pin To Net: Unknown Pin: Pin U6-7
+Add Pin To Net: Unknown Pin: Pin U6-8
+Add Pin To Net: Unknown Pin: Pin U6-9
+Add Pin To Net: Unknown Pin: Pin U6-10
+Add Pin To Net: Unknown Pin: Pin U6-11
+Add Pin To Net: Unknown Pin: Pin U6-12
+Add Pin To Net: Unknown Pin: Pin U6-13
+Add Pin To Net: Unknown Pin: Pin U6-14
+Add Pin To Net: Unknown Pin: Pin U6-15
+Add Pin To Net: Unknown Pin: Pin U6-16
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-3
+Add Pin To Net: Unknown Pin: Pin U7-7
+Add Pin To Net: Unknown Pin: Pin U7-9
+Add Pin To Net: Unknown Pin: Pin U7-10
+Add Pin To Net: Unknown Pin: Pin U7-11
+Add Pin To Net: Unknown Pin: Pin U7-14
+Add Pin To Net: Unknown Pin: Pin U7-15
+Add Pin To Net: Unknown Pin: Pin U7-20
+Add Pin To Net: Unknown Pin: Pin U7-21
+Add Pin To Net: Unknown Pin: Pin U7-22
+Add Pin To Net: Unknown Pin: Pin U7-23
+Add Pin To Net: Unknown Pin: Pin U7-25
+Add Pin To Net: Unknown Pin: Pin U7-26
+Add Class Member: Failed to add class member : Component BT1 BS-7
+Add Class Member: Failed to add class member : Component C2 X7R 16V
+Add Class Member: Failed to add class member : Component C4 C0805
+Add Class Member: Failed to add class member : Component C8 X7R 250V
+Add Class Member: Failed to add class member : Component C9 X7R 250V
+Add Class Member: Failed to add class member : Component C15 C0805
+Add Class Member: Failed to add class member : Component C16 C0805
+Add Class Member: Failed to add class member : Component D1 BZD27C200P
+Add Class Member: Failed to add class member : Component D2 BZD27C200P
+Add Class Member: Failed to add class member : Component D3 LED0
+Add Class Member: Failed to add class member : Component P1 BS-SSMA
+Added Member To Class: ClassName=Pamp Member=Component U1 ADS122U04IPWR
+Added Member To Class: ClassName=Pamp Member=Component U2 LTC6655CHLS8-4.096#PBF
+Added Member To Class: ClassName=Pamp Member=Component U3 MAX295CSA
+Add Class Member: Failed to add class member : Component U4 AD8642ARMZ
+Add Class Member: Failed to add class member : Component U6 DS3231
+Add Class Member: Failed to add class member : Component U7 Arduino MKRZero

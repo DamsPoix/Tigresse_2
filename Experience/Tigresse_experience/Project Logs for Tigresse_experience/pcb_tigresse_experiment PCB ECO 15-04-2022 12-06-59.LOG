@@ -1,0 +1,72 @@
+Removed Pin From Net: NetName=DGND Pin=Q1-2
+Removed Pin From Net: NetName=GUARD Pin=R1-1
+Removed Pin From Net: NetName=GUARD_EXT Pin=R1-2
+Removed Pin From Net: NetName=D3V3 Pin=R19-1
+Removed Pin From Net: NetName=DGND Pin=R24-2
+Removed Member From Class: ClassName=Data Member=Q1
+Removed Member From Class: ClassName=Pamp Member=R1
+Removed Member From Class: ClassName=Data Member=R19
+Removed Member From Class: ClassName=Data Member=R22
+Removed Member From Class: ClassName=Data Member=R24
+Add Component: Footprint Not Found BS-7-ND
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found DO219-AB
+Add Component: Footprint Not Found DO219-AB
+Added Component: Designator=R1_GUARD(0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found Arduino MKRZero
+Add Pin To Net: Unknown Pin: Pin Batt_clock-1
+Add Pin To Net: Unknown Pin: Pin Batt_clock-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C9-1
+Add Pin To Net: Unknown Pin: Pin C9-2
+Add Pin To Net: Unknown Pin: Pin C15-1
+Add Pin To Net: Unknown Pin: Pin C15-2
+Add Pin To Net: Unknown Pin: Pin C16-1
+Add Pin To Net: Unknown Pin: Pin C16-2
+Added Pin To Net: NetName=NetClock_18 Pin=Clock-20
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D2-1
+Add Pin To Net: Unknown Pin: Pin D2-2
+Added Pin To Net: NetName=GUARD Pin=R1_GUARD-1
+Added Pin To Net: NetName=GUARD_EXT Pin=R1_GUARD-2
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-3
+Add Pin To Net: Unknown Pin: Pin U7-7
+Add Pin To Net: Unknown Pin: Pin U7-15
+Add Pin To Net: Unknown Pin: Pin U7-21
+Add Pin To Net: Unknown Pin: Pin U7-22
+Add Pin To Net: Unknown Pin: Pin U7-23
+Add Pin To Net: Unknown Pin: Pin U7-25
+Add Pin To Net: Unknown Pin: Pin U7-26
+Change Net Name : Old Net Name=DRDY New Net Name=NetADC_14
+Change Net Name : Old Net Name=UART_RX New Net Name=NetADC_15
+Change Net Name : Old Net Name=UART_TX New Net Name=NetADC_16
+Add Class Member: Failed to add class member : Component Batt_clock BS-7
+Add Class Member: Failed to add class member : Component C2 X7R 16V
+Add Class Member: Failed to add class member : Component C4 C0805
+Add Class Member: Failed to add class member : Component C8 X7R 250V
+Add Class Member: Failed to add class member : Component C9 X7R 250V
+Add Class Member: Failed to add class member : Component C15 C0805
+Add Class Member: Failed to add class member : Component C16 C0805
+Add Class Member: Failed to add class member : Component D1 BZD27C200P
+Add Class Member: Failed to add class member : Component D2 BZD27C200P
+Added Member To Class: ClassName=Pamp Member=Component R1_GUARD Res CMS
+Add Class Member: Failed to add class member : Component U7 Arduino MKRZero

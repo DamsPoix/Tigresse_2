@@ -1,0 +1,339 @@
+*************************************************************
+FileName = pcb_tigresse_experiment.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Component Center
+      File : pcb_tigresse_experiment.GM16
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : pcb_tigresse_experiment.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D14
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : pcb_tigresse_experiment.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D11
+    D12
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : pcb_tigresse_experiment.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : pcb_tigresse_experiment.GM3
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : pcb_tigresse_experiment.GM2
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Outline layer
+      File : pcb_tigresse_experiment.GM1
+
+    Adding Layer      : Outline layer
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : pcb_tigresse_experiment.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : pcb_tigresse_experiment.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : BottomsSIGN
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : pcb_tigresse_experiment.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : TopSIGN
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D16
+    D17
+    D18
+    D25
+    D27
+    D28
+    D29
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : pcb_tigresse_experiment.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : TopSIGN
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : pcb_tigresse_experiment.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : pcb_tigresse_experiment.GPT
+
+    Adding Layer      : TopSIGN
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D42
+    D43
+    D52
+    D53
+    D54
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : pcb_tigresse_experiment.GPB
+
+    Adding Layer      : BottomsSIGN
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D42
+    D43
+    D52
+    D53
+    D54
+    D55
+*************************************************************
+
+*************************************************************
+Generating : BottomsSIGN
+      File : pcb_tigresse_experiment.GBL
+
+    Adding Layer      : BottomsSIGN
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D42
+    D43
+    D48
+    D49
+    D50
+    D52
+    D53
+    D54
+    D55
+    D56
+*************************************************************
+
+*************************************************************
+Generating : TopSIGN
+      File : pcb_tigresse_experiment.GTL
+
+    Adding Layer      : TopSIGN
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D42
+    D43
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : pcb_tigresse_experiment.GD1
+
+    Adding Drill Pair : TopSIGN-BottomsSIGN
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D58
+    D59
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : pcb_tigresse_experiment.GG1
+
+    Adding Drill Pair : TopSIGN-BottomsSIGN
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D58
+*************************************************************
+

@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=D1 NewDesignator=Diodevbat
+Change Component Designator: OldDesignator=Q NewDesignator=pmos
+Change Net Name : Old Net Name=NetD1_2 New Net Name=NetDiodevbat_2
+Change Net Name : Old Net Name=NetQ1_3 New Net Name=Netpmos_4

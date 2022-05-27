@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GUARD Pin=Suiveur-1
+Removed Pin From Net: NetName=GUARD Pin=Suiveur-2
+Removed Pin From Net: NetName=NetPH2_3 Pin=Suiveur-3
+Removed Pin From Net: NetName=NetPH2_3 Pin=Suiveur-4
+Removed Pin From Net: NetName=NetADC_12 Pin=Suiveur-5
+Removed Pin From Net: NetName=NetS_R4_OUT_1 Pin=Suiveur-6
+Removed Pin From Net: NetName=GUARD Pin=Suiveur-7
+Removed Pin From Net: NetName=NetS_R5_1 Pin=Suiveur-8
+Removed Member From Class: ClassName=Pamp Member=Suiveur
+Added Pin To Net: NetName=GUARD Pin=U?-1
+Added Pin To Net: NetName=GUARD Pin=U?-2
+Added Pin To Net: NetName=NetPH2_3 Pin=U?-3
+Added Pin To Net: NetName=NetPH2_3 Pin=U?-4
+Added Pin To Net: NetName=NetADC_12 Pin=U?-5
+Added Pin To Net: NetName=NetS_R4_OUT_1 Pin=U?-6
+Added Pin To Net: NetName=GUARD Pin=U?-7
+Added Pin To Net: NetName=NetS_R5_1 Pin=U?-8

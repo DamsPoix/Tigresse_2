@@ -1,0 +1,79 @@
+Removed Pin From Net: NetName=DRDY Pin=R23-1
+Change Component Designator: OldDesignator=U? NewDesignator=U4
+Add Component: Footprint Not Found BS-7-ND
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 1206
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found DO219-AB
+Add Component: Footprint Not Found DO219-AB
+Add Component: Footprint Not Found BIGLED
+Add Component: Footprint Not Found BS-SSMA
+Added Component: Designator=U6(W20#H2_N)
+Add component (AddParameter): Name = "Code_IPC"; Value = "SOIC127P1030-20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-013-AC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.maxim-ic.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://datasheets.maxim-ic.com/en/ds/DS3232.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://pdfserv.maxim-ic.com/package_dwgs/21-0042.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev 5, Jul-2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "20-Pin Small-Outline IC, Wide (0.3in), 1.27 mm Pitch, SOIC (W), RoHS Qualified"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "W20#H2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "revD, 2010"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found Arduino MKRZero
+Add Pin To Net: Unknown Pin: Pin BT1-1
+Add Pin To Net: Unknown Pin: Pin BT1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C9-1
+Add Pin To Net: Unknown Pin: Pin C9-2
+Add Pin To Net: Unknown Pin: Pin C15-1
+Add Pin To Net: Unknown Pin: Pin C15-2
+Add Pin To Net: Unknown Pin: Pin C16-1
+Add Pin To Net: Unknown Pin: Pin C16-2
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin D2-1
+Add Pin To Net: Unknown Pin: Pin D2-2
+Add Pin To Net: Unknown Pin: Pin D3-1
+Add Pin To Net: Unknown Pin: Pin D3-2
+Add Pin To Net: Unknown Pin: Pin P1-2
+Added Pin To Net: NetName=D3V3 Pin=U6-4
+Added Pin To Net: NetName=DGND Pin=U6-15
+Added Pin To Net: NetName=NetBT1_1 Pin=U6-16
+Added Pin To Net: NetName=NetR21_2 Pin=U6-17
+Added Pin To Net: NetName=NetR20_2 Pin=U6-18
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-3
+Add Pin To Net: Unknown Pin: Pin U7-7
+Add Pin To Net: Unknown Pin: Pin U7-9
+Add Pin To Net: Unknown Pin: Pin U7-10
+Add Pin To Net: Unknown Pin: Pin U7-11
+Add Pin To Net: Unknown Pin: Pin U7-14
+Add Pin To Net: Unknown Pin: Pin U7-15
+Add Pin To Net: Unknown Pin: Pin U7-21
+Add Pin To Net: Unknown Pin: Pin U7-22
+Add Pin To Net: Unknown Pin: Pin U7-23
+Add Pin To Net: Unknown Pin: Pin U7-25
+Add Pin To Net: Unknown Pin: Pin U7-26
+Add Class Member: Failed to add class member : Component BT1 BS-7
+Add Class Member: Failed to add class member : Component C2 X7R 16V
+Add Class Member: Failed to add class member : Component C4 C0805
+Add Class Member: Failed to add class member : Component C8 X7R 250V
+Add Class Member: Failed to add class member : Component C9 X7R 250V
+Add Class Member: Failed to add class member : Component C15 C0805
+Add Class Member: Failed to add class member : Component C16 C0805
+Add Class Member: Failed to add class member : Component D1 BZD27C200P
+Add Class Member: Failed to add class member : Component D2 BZD27C200P
+Add Class Member: Failed to add class member : Component D3 LED0
+Add Class Member: Failed to add class member : Component P1 BS-SSMA
+Added Member To Class: ClassName=Data Member=Component U6 DS3232SN#
+Add Class Member: Failed to add class member : Component U7 Arduino MKRZero
