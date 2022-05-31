@@ -23,6 +23,6 @@ Elle emportera une expérience afin de mesurer les résonnances de Schumann dura
 La fusée a d'une hauteur de 1 mètre 85 avec une peau aluminium. L'ogive mesure 45cm.
 <p align="center">
   <img 
-    src= "Modélisation_3D/Rendu_Github.jpg"
+    src= "Tigresse-2_vue_artiste.png"
   >
 </p>
