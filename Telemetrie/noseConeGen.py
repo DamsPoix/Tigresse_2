@@ -6,10 +6,11 @@ import numpy as np
 doc = ezdxf.new('R2010') #cree un dessin dxf au format R2010
 msp = doc.modelspace() #ajoute une nouvelle entite dans le modelspace
 
+
 Radius = 0.05 #rayon a la base du cone
 Length = 0.45 #longueur de l ogive
 n = 1/2 # type de puissance : 0 = cylindrique, 1/2 = demi-parabole, 3/4 = ?, 1 = cone
-pas = 0.0005 #resolution
+pas = 0.001 #resolution
 
 def powerSerie(x):
 	return Radius*(x/Length)**(n)
@@ -18,7 +19,7 @@ def powerSerie(x):
 x_list = np.arange(0, Length, 0.00001) #modele tres fin qui sera ajuste a la resolution decrite plus haut apres
 polyline_temp = []
 for x in x_list :
-	polyline_temp.append((x,powerSerie(x),0))
+	polyline_temp.append((x,powerSerie(x)))
 
 #on cree en suite la polyline avec la resolution qui va bien
 polyline_final = [polyline_temp[0]]
@@ -28,18 +29,23 @@ for i in range(len(polyline_temp)):
 	end = polyline_temp[i]
 	dx = end[0]-start[0]
 	dy = end[1]-start[1]
-	dz = end[2]-start[2]
-	distance = np.sqrt(dx**2 + dy**2 + dz**2)
+	distance = np.sqrt(dx**2 + dy**2)
 
 	if(distance > pas):
 		polyline_final.append(polyline_temp[i])
 		start_index = i
 
-print(polyline_final)
 
 
 #on genere le dxf
-msp.add_lwpolyline(polyline_final)
+msp.add_spline(polyline_final)
+doc.saveas('noseCone.dxf')
+
+"""
+for i in polyline_final:
+	msp.add_point(i)
+doc.saveas('noseConepts.dxf')
+"""
 
 """
 for pts_id in range(1,len(polyline_final)):

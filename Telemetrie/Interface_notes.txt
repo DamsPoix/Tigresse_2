@@ -1,0 +1,10 @@
+courbe avec la projection de trajectoire (+ data : altitude, acceleration, speed, timer)
+carte avec la trajectoire vue de haut
+attitude
+stages (idle, liftoff, MECO, Apoapsis, Parachute deploy, landing)
+logs (etats, erreurs, etat liaison GPS...)
+control pannel :
+	- enregistrer le raw data input (GQRX ou quoi, vraiment la Bande passante quoi)
+	- exporter les données importante a sauvegarder au sol au cas ou (magnéto, GPS)
+	- exporter la trajectoire pour récupération sur téléphone
+
