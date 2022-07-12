@@ -15,12 +15,14 @@
 #define BUZZER_PIN 13
 bool serial = true;
 bool logSD = true;
+bool liftoff = false;
 
 //IMU parameters
 MPU9250 mpu;
 float mpuQuaternion[3];
 float quaternionScalar;
 float mpuAccel[3];
+float mpuMag[3];
 float worldAccel[3];
 float worldSpeed[3] = {0,0,0};
 float worldPos[3] = {0,0,0};
@@ -28,7 +30,9 @@ unsigned long last_millis;
 
 //BMP parameters
 Adafruit_BMP3XX bmp;
-float initialPressure = -1;
+float initialPressure = 0;
+float altitude = 0;
+float temperature = 0;
 
 //SD card parameters
 File root;
@@ -67,6 +71,10 @@ void loop() {
     mpuAccel[1] = mpu.getAccY();
     mpuAccel[2] = mpu.getAccZ();
 
+    mpuMag[0] = mpu.getMagX();
+    mpuMag[1] = mpu.getMagX();
+    mpuMag[2] = mpu.getMagX();
+
     float dot1 = 2.0f*dot(mpuQuaternion, mpuAccel);
     float dot2 = (quaternionScalar*quaternionScalar) - dot(mpuQuaternion,mpuQuaternion);
     float cross1[3] = {0,0,0};
@@ -82,44 +90,40 @@ void loop() {
     int dt = millis() - last_millis;
     last_millis = millis();
 
-    worldSpeed[0] += worldAccel[0]*9.81f*dt/1000.0f; //convertis en m/s
-    worldSpeed[1] += worldAccel[1]*9.81f*dt/1000.0f; //convertis en m/s
+    //worldSpeed[0] += worldAccel[0]*9.81f*dt/1000.0f; //convertis en m/s
+    //worldSpeed[1] += worldAccel[1]*9.81f*dt/1000.0f; //convertis en m/s
     worldSpeed[2] += worldAccel[2]*9.81f*dt/1000.0f; //convertis en m/s
 
-    worldPos[0] += worldSpeed[0]*dt/1000.0f; //convertis en m
-    worldPos[1] += worldSpeed[1]*dt/1000.0f; //convertis en m
-    worldPos[2] += worldSpeed[2]*dt/1000.0f; //convertis en m
+    //worldPos[0] += worldSpeed[0]*dt/1000.0f; //convertis en m
+    //worldPos[1] += worldSpeed[1]*dt/1000.0f; //convertis en m
+    //worldPos[2] += worldSpeed[2]*dt/1000.0f; //convertis en m
 
-    //fusion avec l'altimetre
+    if(!liftoff){
+      worldSpeed[2] = 0; //tant que pas decolle, egal a zero
+    }
+
+    //traitement de l'altimetre : 
     if(bmp.performReading()){
-      float temp =  bmp.readAltitude(initialPressure);
-      worldPos[2] = (worldPos[2] + temp)/2;
-      Serial.print("alti : ");
-      Serial.print(String(worldPos[2]));
-      Serial.print(" ; ");
-      Serial.println("");
+      if(!liftoff){
+        initialPressure = (initialPressure + bmp.pressure)/2;
+      }else{
+        altitude =  bmp.readAltitude(initialPressure/100.0f);
+      }
+      temperature = bmp.temperature;
     }
-    
-    
-    if(serial == false){
-      Serial.print((float)worldAccel[0],4); Serial.print(", ");
-      Serial.print((float)worldAccel[1],4); Serial.print(", ");
-      Serial.print((float)worldAccel[2],4); Serial.print(", ");
-  
-      Serial.print((float)worldSpeed[0],4); Serial.print(", ");
-      Serial.print((float)worldSpeed[1],4); Serial.print(", ");
-      Serial.print((float)worldSpeed[2],4); Serial.print(", ");
 
-      Serial.print((float)worldPos[0],4); Serial.print(", ");
-      Serial.print((float)worldPos[1],4); Serial.print(", ");
-      Serial.println((float)worldPos[2],4);
+    if(millis()> 10000){
+      liftoff = true; //simule l arrachage de la jack
     }
   
-    if(logSD){
+    if(logSD){ // millis; Qw;Qx;Qy;Qz; Ax;Ay;Az; Mx;My;Mz; altiBMP; temperature; lat;long;altiGPS
       logBuffer += String(millis()) + ";";
-      logBuffer += String(worldAccel[0],5) + ";" + String(worldAccel[1],5) + ";" + String(worldAccel[2],5) + ";";
-      logBuffer += String(worldSpeed[0],5) + ";" + String(worldSpeed[1],5) + ";" + String(worldSpeed[2],5) + ";";
-      logBuffer += String(worldPos[0],5) + ";" + String(worldPos[1],5) + ";" + String(worldPos[2],5) + "\n";
+      logBuffer += String(quaternionScalar,5) + ";" + String(mpuQuaternion[0],5) + ";" + String(mpuQuaternion[1],5) + ";" + String(mpuQuaternion[2],5) + ";";
+      logBuffer += String(-mpuAccel[0],5) + ";" + String(mpuAccel[1],5) + ";" + String(mpuAccel[2],5) + ";";
+      logBuffer += String(mpuMag[0],5) + ";" + String(mpuMag[1],5) + ";" + String(mpuMag[2],5) + ";";
+      logBuffer += String(altitude,5) + ";";
+      logBuffer += String(temperature,5) + ";";
+      logBuffer += String(worldSpeed[0],5) + ";" + String(worldSpeed[1],5) + ";" + String(worldSpeed[2],5) + ";"; //GPS
       saveToSD();
     }
     
@@ -273,7 +277,7 @@ void init_SD(){
   root = SD.open(rootFilename, FILE_WRITE);
   
   if(root){
-    root.println("millis;Ax;Ay;Az;Vx;Vy;Vz;Px;Py;Pz");
+    root.println("millis;Qw;Qx;Qy;Qz;Ax;Ay;Az;Mx;My;Mz;altiBMP;temperature;lat;long;altiGPS");
   }else{
     fetchError("Errors while openning file : " + rootFilename);
   }
@@ -307,11 +311,7 @@ void initBMP(){
 
   for(int i = 0; i < 30; i++){
     if(bmp.performReading()){
-      if(i == 0){
-        initialPressure = bmp.pressure/100.0f;
-      }else{
-        initialPressure += bmp.pressure/100.0f;
-      }
+        initialPressure += bmp.pressure;
     }else{
       if(serial){
         Serial.println(F("BMP failed to perform reading"));
@@ -321,7 +321,7 @@ void initBMP(){
     delay(100);
   }
   
-  if(initialPressure == -1){
+  if(initialPressure == 0){
     fetchError(F("Failed to initialize pressure"));
   }
 
