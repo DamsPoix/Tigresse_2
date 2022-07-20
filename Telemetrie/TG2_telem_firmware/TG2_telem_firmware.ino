@@ -4,6 +4,7 @@
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include "Adafruit_BMP3XX.h"
+#include "UBLOX.hpp"
 
 //global pinout
 #define INT_ALTI 5
@@ -39,6 +40,14 @@ File root;
 String rootFilename = "/logs/";
 String logBuffer;
 
+//UBLOX MAX8
+UBLOX gps;
+
+//RF
+int bitrate = 2400;
+int rf_delay = 0;
+int rf_index = 0;
+String rf_trame = "";
 
 void setup() {
   if(serial){
@@ -47,15 +56,24 @@ void setup() {
   }
   
   initPins();
-  //ringtone();
+  ringtone();
+  
   initMPU();
-  //ackTone();
+  ackTone();
   initBMP();
-  //ackTone();
+  ackTone();
+  gps.begin(9600);
+  ackTone();
+
+  
   if(logSD){
     init_SD();
-    //ackTone();
+    ackTone();
   }
+
+  //on enable la RF
+  digitalWrite(RF_EN, LOW);
+  
   last_millis = millis();
 }
 
@@ -72,8 +90,8 @@ void loop() {
     mpuAccel[2] = mpu.getAccZ();
 
     mpuMag[0] = mpu.getMagX();
-    mpuMag[1] = mpu.getMagX();
-    mpuMag[2] = mpu.getMagX();
+    mpuMag[1] = mpu.getMagY();
+    mpuMag[2] = mpu.getMagZ();
 
     float dot1 = 2.0f*dot(mpuQuaternion, mpuAccel);
     float dot2 = (quaternionScalar*quaternionScalar) - dot(mpuQuaternion,mpuQuaternion);
@@ -82,7 +100,7 @@ void loop() {
 
     worldAccel[0] = dot1*mpuQuaternion[0] + dot2*mpuAccel[0] + 2.0f*quaternionScalar*cross1[0];
     worldAccel[1] = dot1*mpuQuaternion[1] + dot2*mpuAccel[1] + 2.0f*quaternionScalar*cross1[1];
-    worldAccel[2] = dot1*mpuQuaternion[2] + dot2*mpuAccel[2] + 2.0f*quaternionScalar*cross1[2];    
+    worldAccel[2] = dot1*mpuQuaternion[2] + dot2*mpuAccel[2] + 2.0f*quaternionScalar*cross1[2];
 
     //removing gravitationnal part
     worldAccel[2] -= 1; //ca a l air d etre en g askip mais c est chelou
@@ -102,6 +120,10 @@ void loop() {
       worldSpeed[2] = 0; //tant que pas decolle, egal a zero
     }
 
+    if(millis() > 30000){//simule le liftoff vu que le trigger est pas envoye
+      liftoff = true;
+    }
+
     //traitement de l'altimetre : 
     if(bmp.performReading()){
       if(!liftoff){
@@ -112,18 +134,33 @@ void loop() {
       temperature = bmp.temperature;
     }
 
-    if(millis()> 10000){
-      liftoff = true; //simule l arrachage de la jack
+    gps.read();
+
+    digitalWrite(ALARM_LED, digitalRead(TRG));
+
+    //envoie de la RF
+    if(rf_index > rf_trame.length()){
+      float accMean = sqrt((worldAccel[0]*worldAccel[0])+(worldAccel[1]*worldAccel[1])+(worldAccel[2]*worldAccel[2]));
+      //float agg = mpu.getPitch() > mpu.getRoll() ? :
+      rf_trame = "";
+      rf_index = 0;
+      rf_trame +=  "$TRG:" + gps.getLat() + ";" + gps.getLon() + ";" + String(altitude,2) + ";" + String(temperature,1) + ";" + String(accMean,2) + "\n";
+      //Serial.print(rf_trame);
+    }else{
+      writeChar(rf_trame.charAt(rf_index));
     }
+    rf_index ++;
+    
   
-    if(logSD){ // millis; Qw;Qx;Qy;Qz; Ax;Ay;Az; Mx;My;Mz; altiBMP; temperature; lat;long;altiGPS
+    if(logSD){ // date;time; millis; Qw;Qx;Qy;Qz; Ax;Ay;Az; Mx;My;Mz; altiBMP; temperature; lat;long
+      logBuffer += gps.getDate() + ";" + gps.getTime() + ";";
       logBuffer += String(millis()) + ";";
       logBuffer += String(quaternionScalar,5) + ";" + String(mpuQuaternion[0],5) + ";" + String(mpuQuaternion[1],5) + ";" + String(mpuQuaternion[2],5) + ";";
       logBuffer += String(-mpuAccel[0],5) + ";" + String(mpuAccel[1],5) + ";" + String(mpuAccel[2],5) + ";";
       logBuffer += String(mpuMag[0],5) + ";" + String(mpuMag[1],5) + ";" + String(mpuMag[2],5) + ";";
       logBuffer += String(altitude,5) + ";";
       logBuffer += String(temperature,5) + ";";
-      logBuffer += String(worldSpeed[0],5) + ";" + String(worldSpeed[1],5) + ";" + String(worldSpeed[2],5) + ";"; //GPS
+      logBuffer += gps.getLat() + ";" + gps.getLon() + "\n"; //GPS
       saveToSD();
     }
     
@@ -178,7 +215,7 @@ void initPins(){
   pinMode(ALARM_LED, OUTPUT);
   pinMode(BUZZER_PIN, OUTPUT);
 
-  digitalWrite(RF_TX, HIGH);
+  digitalWrite(RF_TX, LOW);
   digitalWrite(RF_EN, HIGH);
   digitalWrite(ALARM_LED, LOW);
   digitalWrite(BUZZER_PIN, LOW);
@@ -186,18 +223,18 @@ void initPins(){
 }
 
 void initMPU(){
-  float accX = 1334.05;
-  float accY = -31070.44;
-  float accZ = -3984.78;
-  float gyroX = -442.49;
-  float gyroY = 417.87;
-  float gyroZ = 41.37;
-  float magbiasX = 126.28;
-  float magbiasY = 415.79;
-  float magbiasZ = -90.76;
-  float magscaleX = 1.15;
-  float magscaleY = 0.84;
-  float magscaleZ = 1.07;
+  float accX = 622.29;
+  float accY = 8925.95;
+  float accZ = -4652.39;
+  float gyroX = 267.20;
+  float gyroY = -410.56;
+  float gyroZ = 1646.90;
+  float magbiasX = 44.51;
+  float magbiasY = 50.02;
+  float magbiasZ = -294.45;
+  float magscaleX = 0.99;
+  float magscaleY = 1.03;
+  float magscaleZ = 0.98;
   
   Wire.begin();
   delay(2000);
@@ -277,7 +314,7 @@ void init_SD(){
   root = SD.open(rootFilename, FILE_WRITE);
   
   if(root){
-    root.println("millis;Qw;Qx;Qy;Qz;Ax;Ay;Az;Mx;My;Mz;altiBMP;temperature;lat;long;altiGPS");
+    root.println("date;time;millis;Qw;Qx;Qy;Qz;Ax;Ay;Az;Mx;My;Mz;altiBMP;temperature;lat;long");
   }else{
     fetchError("Errors while openning file : " + rootFilename);
   }
@@ -337,4 +374,15 @@ void fetchError(String str){
     errorTone();
     delay(5000); 
   }
+}
+
+void writeChar(char carac){
+  digitalWrite(RF_TX, HIGH);
+  delayMicroseconds(1000000.0/bitrate);
+  for(uint8_t i = 0; i < 8; i++){
+    digitalWrite(RF_TX, ((carac >> i) & 1) ? LOW: HIGH);
+    delayMicroseconds(1000000.0/bitrate);
+  }
+  digitalWrite(RF_TX, LOW);
+  delayMicroseconds(2000000.0/bitrate);
 }
