@@ -35,7 +35,7 @@ Voici l'équipe qui a permit ce vol parfait :
 De gauche à droite : Aymerick BATS (responsable expérience) - Loup-Maël AGULES(support technique) - Raynald DUMAS (responsable vision fusée) - Léo MARMANDE (support technique) - Hugo KREMER (responsable mécanique) - Damien POIX (chef de projet/responsable seq et CAO) - Corentin LAROCHE (responsable télémétrie).
 <p align="center">
   <img 
-    src= "IMG_3540.png"
+    src= "IMG_3540.jpg"
   >
 </p>
 
