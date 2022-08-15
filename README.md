@@ -31,8 +31,9 @@ La fusée a d'une hauteur de 1 mètre 85 avec une peau aluminium. L'ogive mesure
 Après une campagne de lancements de fusées au C'Space 2022, Tigresse-2 a effectué un vol nominal ! 
 Voici l'équipe qui a permit ce vol parfait : 
 
-</p>
+
 De gauche à droite : Aymerick BATS (responsable expérience) - Loup-Maël AGULES(support technique) - Raynald DUMAS (responsable vision fusée) - Léo MARMANDE (support technique) - Hugo KREMER (responsable mécanique) - Damien POIX (chef de projet/responsable seq et CAO) - Corentin LAROCHE (responsable télémétrie).
+</p>
 <p align="center">
   <img 
     src= "IMG_3540.JPG"
