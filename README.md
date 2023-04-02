@@ -42,6 +42,8 @@ De gauche à droite : Aymerick BATS (responsable expérience) - Loup-Maël AGULE
 
 
 Lien vers GrabCad : <a href="https://grabcad.com/library/tigresse-2-1" target="_blank">Grabcad Tigresse-2</a>
+
+
 Merci au CNES et à Planète Science pour cette opportunité ! 
 Merci à l'équipe pour leur détermination et leur travail ! 
 
